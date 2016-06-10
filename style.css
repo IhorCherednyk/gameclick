@@ -1,0 +1,55 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cell{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	border: 1px solid #000;
+	color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.row{
+	height: 70px;
+}
+.game-body {
+	margin: 0 auto;
+}
+.img0 {
+	background-image: url(https://kde.link/test/0.png);
+}
+.img1 {
+	background-image: url(https://kde.link/test/1.png);
+}
+.img2 {
+	background-image: url(https://kde.link/test/2.png);
+}
+.img3 {
+	background-image: url(https://kde.link/test/3.png);
+}
+.img4 {
+	background-image: url(https://kde.link/test/4.png);
+}
+.img5 {
+	background-image: url(https://kde.link/test/5.png);
+}
+.img6 {
+	background-image: url(https://kde.link/test/6.png);
+}
+.img7 {
+	background-image: url(https://kde.link/test/7.png);
+}
+.img8 {
+	background-image: url(https://kde.link/test/8.png);
+}
+.img9 {
+	background-image: url(https://kde.link/test/9.png);
+}
+.cell.hidden {
+	background-image: none;
+	background-color: #74378c;
+}
